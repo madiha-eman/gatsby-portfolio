@@ -12,6 +12,7 @@ import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
+import Parcelcomponent from '../components/Parcelcomponent';
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
@@ -23,18 +24,32 @@ const sections = [
 const IndexPage = () => (
   <Layout>
     <SideBar sections={sections} />
-
     <div id="main">
+  
       <section id="top" className="one dark cover">
         <div className="container">
-          <header>
+        <Parcelcomponent >
+
+    
+          <header
+           style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%"
+          }}
+          >
+        
             <h2 className="alt">
               Hi! I'm <strong>Madiha</strong>
               <br />
               Web developer
             </h2>
             <p>I have made few things check it out.</p>
-          </header>
+            
+             </header>
+      </Parcelcomponent>
 
           <footer>
             <Scroll type="id" element={'portfolio'}>
@@ -44,8 +59,9 @@ const IndexPage = () => (
             </Scroll>
           </footer>
         </div>
+       
       </section>
-
+     {/* </Parcelcomponent> */}
       <section id="portfolio" className="two">
         <div className="container">
           <header>
