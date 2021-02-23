@@ -1,3 +1,18 @@
+
+
+# gatsby:
+ 
+ 1: How to make project 
+ 
+ ** You'll need to install the CLI interface to create a site with Gatsby
+ ** open cmd and run command "npm i --g gatsby-cli"
+ ** then run command "npm init gatsby" 
+ then they will ask u some question i will recommended you just select 'no I'll add it later' 
+ ** cd yourProjectName
+ ** Start the local development server with 
+    npm run develop
+ 
+
 # gatsby-starter-prologue
 
 Gatsby.js V2 starter template based on Prologue by HTML5 UP
